@@ -7,7 +7,7 @@
     border-radius: 30px;
     border: 5px solid black;
     width: 440px;
-    height: 750px;
+    height: auto;
 }
 
 /* Configure the first image */
@@ -18,5 +18,23 @@
 
 /* Configure the presentation */
 
+.summary {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.down_part {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    margin: 15px 20px;
+}
 
 
