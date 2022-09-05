@@ -1,9 +1,17 @@
 /* Fonts */
+html {
+    background: url("images/pattern-background-desktop.svg") no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+}
+
 
 body {
-    background-color: hsl(225, 100%, 94%);
     font-family: "RedHatDisplay", Calibri, Tahoma, sans-serif;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
 }
 
 @font-face  {
@@ -71,6 +79,7 @@ p {
     background-color: hsl(225, 100%, 98%);
     border-radius: 15px;
     margin-top: 40px;
+    padding: 10px 0px;
 }
 
 .icon {
