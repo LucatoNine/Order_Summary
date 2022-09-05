@@ -1,3 +1,18 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Red Hat Display";
+    src: url("polices/RedHatDisplay-VariableFont_wght.ttf") format("ttf");
+}
+
+
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+
+
 /* Configure the disposition of objects */
 
 .text_body {
@@ -5,15 +20,25 @@
     flex-direction: column;
     align-items: center;
     border-radius: 30px;
-    border: 5px solid black;
+    border: 5px solid transparent;
     width: 440px;
     height: auto;
+    background-color: white;
 }
 
 /* Configure the first image */
 
-.hdr_img {
+/* .hdr_img {
+    border-radius: 30px 30px 0px 0px;
+    object-fit: cover;
+} */s
+
+.main_pic {
     border-radius: 30px;
+    object-fit: contain;
+    width: fit-content;
+    height: fit-content;
+    
 }
 
 /* Configure the presentation */
@@ -21,6 +46,7 @@
 .summary {
     text-align: center;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 .down_part {
