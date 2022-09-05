@@ -1,13 +1,16 @@
 /* Fonts */
 
 @font-face {
-    font-family: "RedHatDisplay";
-    src: url("polices/RedHatDisplay-VariableFont_wght.ttf") format("ttf");
+    font-family: "RedHatDisplay", sans-serif;
+    src: url("polices/static/RedHatDisplay-Bold.ttf") format("truetype");
+    font-weight: 500, 700, 900;
 }
 
 
 body {
     background-color: hsl(225, 100%, 94%);
+    font-family: "RedHatDisplay";
+    
 }
 
 
@@ -17,11 +20,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border-radius: 30px;
     border: 5px solid transparent;
     width: 440px;
     height: auto;
     background-color: white;
+    
 }
 
 /* Configure the first image */
@@ -31,9 +36,8 @@ body {
 }
 
 .main_pic {
-    object-fit: cover;
-    width: fit-content;
-    height: fit-content;
+    width: 450px;
+    height: 220px;
     
 }
 
@@ -44,11 +48,13 @@ body {
     margin: 30px 40px;
 }
 
+/* Text part */
+
 .summary {
     text-align: center;
-    box-sizing: border-box;
-    
 }
+
+/* Price part */
 
 .down_part {
     display: flex;
@@ -59,13 +65,38 @@ body {
     margin-top: 40px;
 }
 
+.icon {
+    margin-left: 15px;
+}
+
+.price {
+    margin-right: 50px;
+    font-family: Georgia, serif;
+}
+
+/* Payment part */
+
 .payment {
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
+    text-align: center;
+    
     margin-top: 40px;
     border-radius: 15px;
-    
 }
 
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    font-family: "RedHatDisplay";
+    border-radius: 15px;
+    padding: 15px 0px;
+}
 
+.cancel {
+    font-weight: bold;
+    border-radius: 15px;
+    color: hsl(224, 23%, 55%);
+    padding: 15px 0px;
+}
