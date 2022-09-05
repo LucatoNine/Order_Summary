@@ -108,7 +108,6 @@ p {
 
 .proceed {
     background-color: hsl(245, 75%, 52%);
-    color: white;
     font-weight: bold;
     border-radius: 15px;
     padding: 15px 0px;
@@ -118,6 +117,15 @@ p {
 .cancel {
     font-weight: bold;
     border-radius: 15px;
-    color: hsl(224, 23%, 55%);
     padding: 15px 0px;
+}
+
+.proceed a {
+    text-decoration: none;
+    color: white;
+}
+
+.cancel a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
 }
