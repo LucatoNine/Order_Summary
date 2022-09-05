@@ -1,6 +1,22 @@
+/* Configure the disposition of objects */
+
 .text_body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    border-radius: 30px;
+    border: 5px solid black;
+    width: 440px;
+    height: 750px;
 }
+
+/* Configure the first image */
+
+.hdr_img {
+    border-radius: 30px;
+}
+
+/* Configure the presentation */
+
+
+
