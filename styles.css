@@ -1,7 +1,7 @@
 /* Fonts */
 
 @font-face {
-    font-family: "Red Hat Display";
+    font-family: "RedHatDisplay";
     src: url("polices/RedHatDisplay-VariableFont_wght.ttf") format("ttf");
 }
 
@@ -9,8 +9,6 @@
 body {
     background-color: hsl(225, 100%, 94%);
 }
-
-
 
 
 /* Configure the disposition of objects */
@@ -28,14 +26,12 @@ body {
 
 /* Configure the first image */
 
-/* .hdr_img {
-    border-radius: 30px 30px 0px 0px;
-    object-fit: cover;
-} */s
+.hdr_img {
+    box-sizing: content-box;
+}
 
 .main_pic {
-    border-radius: 30px;
-    object-fit: contain;
+    object-fit: cover;
     width: fit-content;
     height: fit-content;
     
@@ -43,24 +39,33 @@ body {
 
 /* Configure the presentation */
 
+.main_text {
+    box-sizing: border-box;
+    margin: 30px 40px;
+}
+
 .summary {
     text-align: center;
     box-sizing: border-box;
-    font-size: 16px;
+    
 }
 
 .down_part {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    margin-top: 40px;
 }
 
 .payment {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 15px 20px;
-    margin: 15px 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+    
 }
 
 
